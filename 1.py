@@ -33,7 +33,7 @@ cat_params = {'iterations': 500, 'learning_rate': 0.1, 'depth': 6,
               'random_state': RS, 'verbose': False, 'loss_function': 'RMSE',
               'allow_writing_files': False}
 
-# ---------------------------------------------------------------- load + clean
+# load + clean
 df = pd.read_csv("nyc311_sample.csv")
 
 drop_stage1 = [
