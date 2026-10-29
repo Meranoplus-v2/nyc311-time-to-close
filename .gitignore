@@ -1,0 +1,17 @@
+# data and model artifacts
+*.csv
+*.pkl
+*.png
+outputs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
